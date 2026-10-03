@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "inswapper-pixel-boost"
+version = "0.1.0"
+authors = [
+  { name="ProgramaGrueso", email="juanganoza@hotmail.com" },
+]
+description = "High-fidelity 256px Face Swap via 4-grid interleaved sub-sampling for InsightFace InSwapper 128"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux",
+    "Topic :: Scientific/Engineering :: Image Processing",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "numpy>=1.20.0"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/ProgramaGrueso/inswapper-pixel-boost"
+"Bug Tracker" = "https://github.com/ProgramaGrueso/inswapper-pixel-boost/issues"
