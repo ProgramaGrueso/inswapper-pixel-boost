@@ -20,3 +20,12 @@ wheels/
 *.egg
 .venv
 venv/
+
+# Secretos: nunca al repositorio
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+secrets*
